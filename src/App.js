@@ -2,6 +2,7 @@ import "./styles.css";
 import { useReducer } from "react";
 import DigitButton from "./DigitButton";
 import OperationButton from "./OperationButton";
+import FloatingImages from "./FloatingImages";
 
 export const ACTIONS = {
   ADD_DIGIT: "add-digit",
@@ -148,6 +149,7 @@ function App() {
       <video autoPlay muted loop playsInline className="bg-video">
         <source src="/butterfly-bg.mp4" type="video/mp4" />
       </video>
+      <FloatingImages />
       <div className="calculator-grid">
         <div className="output">
           <div className="previous-operand">
