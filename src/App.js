@@ -184,5 +184,8 @@ function App() {
     </div>
   );
 }
+<video autoPlay muted loop playsInline className="bg-video">
+  <source src="/butterfly-bg.mp4" type="video/mp4" />
+</video>
 
 export default App;
